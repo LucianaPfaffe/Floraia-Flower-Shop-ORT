@@ -1,0 +1,593 @@
+:root{
+    --naranajaPrincipal: #EDA381;
+    --beige:#FFF6DC;
+    --verdePrincipal: #96947F;
+    --rojoextra:#cc3a3d;
+    --VerdeCard: #fcf9dd;
+    --white:#ffffff;
+    --gris:#A59EA4;
+    --Sucess:#00e322;
+    --middlewhite:#ecedef;
+    --Error:#e80909;
+}
+*{
+    font-family: 'Lora', serif;
+    
+}
+
+.logo{
+    width: 13rem;
+}
+p{
+    font-size: 1rem;
+}
+.productos-preview h2, .preguntas h2, .productos h2{
+    color: var(--naranajaPrincipal);
+    font-weight: bold;
+}
+
+
+
+header{
+    background-color: none;
+}
+.texto-especial{
+    font-family: 'Pacifico', cursive;
+    font-size: 3.7rem;
+    color: var(--naranajaPrincipal);
+   
+}
+
+.acciones-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .acciones-inicio i{
+    padding-right: 1rem;
+    font-size: 2rem;
+    color: var(--naranajaPrincipal);
+   }
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 40px; 
+    font-size: 1.1rem;
+
+}
+.navbar ul li:hover{
+    background-color: var(--verdePrincipal);
+    cursor: pointer;
+}
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+}
+
+
+.textos-inicio{
+    margin-top: 6rem;
+}
+.textos-inicio h1{
+    font-size: 4.5rem;
+    font-weight: bolder;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+.botones-seleccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    background-color: var(--middlewhite);
+    border-color: var(--naranajaPrincipal);
+    height: 3rem;
+    width: 15rem;
+    border-radius: 2.5rem;
+    margin: 1.25rem 1rem 1rem 1.5rem;
+    color: black;
+    padding: .25rem;
+    
+}
+.boton-enviar-seleccion button{
+    background-color:var(--naranajaPrincipal);
+    border-color: var(--middlewhite);
+    border-radius: 2.5rem;
+    margin-top: 1.5625rem;
+    color: var(--middlewhite);
+    padding:.3125rem;
+    width: 17rem;
+    height: 3rem;
+    font-size: 1.3rem;
+}
+
+.informacion{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: auto;
+    
+}
+.informacion-texto{
+    width: 90%;
+    text-align: justify;
+}
+.informacion .row .col-4 p{
+    color: var(--gris);
+}
+.informacion .row .col-4 h3{
+    color: var(--naranajaPrincipal);
+}
+.informacion-img-2{
+    width: 9.5rem;
+}
+.informacion-img-3{
+    width: 9rem;
+    padding-bottom: 1.5rem;
+}
+
+.carrusel{
+    padding: 0;
+    background-color: var(--naranajaPrincipal);
+}
+.mensaje-pagina{
+    background-color: var(--naranajaPrincipal);
+}
+.mensaje-pagina h3{
+ font-weight: bold;
+ font-size: 1.5rem;
+ background-color: var(--VerdeCard);
+}
+
+.mensaje-pagina p{
+    font-size: 1.1rem;
+}
+.ver-boton{
+    background-color: var(--VerdeCard);
+}
+.producto-card{
+
+    background-color: var(--middlewhite);
+    padding: 2rem 2rem 2rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    width: 80%;
+}
+.productos-preview{
+    margin-top: 3rem;
+    padding: 2rem, 2rem, 2rem, 2rem;
+}
+.productos-preview .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productos-preview .card{
+    padding: 0;
+    border: none;
+}
+.productos-texto-ultimo p a{
+    text-decoration: none;
+    color: var(--VerdeSecundario) ;
+    margin-right: 4rem;
+    font-size: 1.3rem;
+}
+.productos{
+    padding-top: 4rem;
+    padding-bottom: 14rem;
+}
+
+.modal-footer button a{
+    text-decoration: none;
+    color: white;
+}
+
+.bx-shopping-bag{
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 0.2rem;
+}
+.owl-prev, .owl-next {
+    font-size: 3rem !important;
+    width: 5rem;
+ }
+.btn-cerrar{
+    color: red;
+    background-color: var(--middlewhite);
+}
+
+.modal-footer button:nth-child(2) {
+    background-color: var(--naranajaPrincipal);
+}
+
+.modal-footer button{
+    display: flex;
+    align-items: center;
+}
+
+
+.productos-boton-mas{
+    background-color: var(--naranajaPrincipal);
+}
+.producto-card-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.productos-titulo{
+    color: var(--naranajaPrincipal);
+}
+
+#catalogo div{
+   margin-bottom: 1rem;
+}
+
+#catalogo div img{
+   padding-bottom: 2rem;
+}
+#catalogo div h3{
+    color: var(--naranajaPrincipal);
+}
+.ramos-boda p{
+    color: var(--gris)
+}
+
+
+
+
+
+.banner{
+    background-image: url(./imgs/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+
+.local h2{
+    color: var(--naranajaPrincipal);
+    font-weight: bold;
+}
+
+.variedad{
+    background-color: var(--naranajaPrincipal);
+    padding-bottom: 2rem;
+}
+.variedad-titulo{
+    font-weight: bold;
+    margin-bottom: 3.5rem;
+}
+.variedad-texto{
+ color: white;
+}
+.variedad-texto h3{
+    color:var(--VerdeCard);
+    font-weight: bold;
+}
+.variedad-foto:hover{
+    opacity: 0.7;
+}
+
+.local{
+    padding-bottom: 3rem;
+}
+
+
+/* seccion de valoraciones*/
+
+
+
+
+
+
+.owl-carousel div img{
+    border-radius: 100%;
+    width: 6rem !important;
+}
+
+.valoracion-usuario{
+    background-color: var(--VerdeCard);
+    border-radius: 2rem;
+    padding: 2rem 3rem 2rem 3rem;
+    margin-right: 3rem;
+}
+.valoraciones-titulo h2{
+    color: var(--naranajaPrincipal);
+    font-weight: bold;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+}
+
+
+
+
+.card-img-top{
+    margin:  auto;
+    width: 6rem;
+    height: 7rem;
+    border-radius: 30rem;
+}
+.card{
+    padding-top: 1rem;
+    border-radius: 1rem;
+    width: 16rem;
+}
+
+.card-title{
+    color: var(--naranajaPrincipal);
+}
+.card-text{
+    color: var(--gris);
+}
+
+#estrella{
+    fill: var(--naranajaPrincipal);
+}
+
+.bx-shopping-bag{
+    font-size: 1.2rem;
+}
+.sc-add-to-cart{
+    background-color: var(--naranajaPrincipal);
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.sc-add-to-cart i{
+    padding-right: 0.5rem;
+}
+.horarios h3{
+    color: var(--naranajaPrincipal);
+    font-weight: bold;
+}
+.horarios ul li{
+    font-size: 1.2rem;
+}
+
+
+/* seccion nosotros*/
+
+h2{
+    font-weight: bold;
+    margin-top: 4rem;
+    color: var(--naranajaPrincipal);
+
+    
+}
+.nosotros-texto p{
+    font-size: 1rem;
+ 
+}
+.nosotros-texto strong{
+    color: var(--naranajaPrincipal);
+}
+
+.banner-nosotros{
+   
+        background-image: url(./imgs/banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+}
+
+.nosotros-historia .col-6 h3{
+    color: var(--naranajaPrincipal);
+    font-weight: bold;
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.hover-image {
+    width: 100%;
+    height: auto;
+}
+.hover-image:hover{
+    opacity: 0.2;
+}
+
+.instagram-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.instagram-logo img {
+    width: 50px; /* ajusta el tamaño según tus necesidades */
+    height: auto;
+}
+
+.image-container:hover .instagram-logo {
+    opacity: 1;
+}
+
+.nosotros-redes h3{
+    color: var(--naranajaPrincipal);
+    background-color: var(--VerdeCard);
+    font-weight: bold;
+}
+
+.logo-nosotros{
+    margin-bottom: 4rem;
+}
+
+/*contacto*/
+.faq h2{
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.contacto {
+    background-color: var(--VerdeCard);
+    margin-top: 2rem;
+}
+.contacto .container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.list-inline i{
+    color: var(--naranajaPrincipal);
+    font-size: 2rem;
+}
+.faq h3{
+    color: var(--naranajaPrincipal)
+}
+
+
+
+/* footer*/
+footer h3{
+    color: var(--VerdeCard);
+    font-size: 1.3rem;
+}
+footer p{
+    color: var(--gris);
+}
+footer i{
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
+ footer .list-inline i{
+    color: var(--gris);
+}
+
+footer{
+    background-color: #4B3F3F;
+    padding-top: 2rem;
+}
+
+
+
+@media (max-width: 767px) {
+    .card {
+        margin-bottom: 20px; /* Agrega espacio entre las tarjetas en dispositivos móviles */
+    }
+}
+
+
+
+@media (max-width: 600px) {
+   
+}
+
+
+  
+@media (max-width: 767px) {
+   
+    main{
+        background-image: url(./imgs/background_mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200vh;
+    }
+    h1{
+        background-color: rgba(255, 255, 255, 0.578);
+        margin-top: 1rem;
+    }
+   
+    .botones-seleccion{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .mensaje-pagina h3{
+        padding-top:1rem ;
+        padding-bottom: 1rem;
+        margin: 1rem 0rem 1rem 0rem;
+       }
+       .mensaje-pagina{
+        padding-bottom: 2rem;
+       }
+       .producto-card{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .variedad{
+        padding:2rem 2rem 1rem 2rem;
+    }
+    .variedad p{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .variedad img{
+        padding-bottom: 3rem;
+    }
+    .faq-imagen{
+        display: none;
+    }
+
+   
+    
+  }
+
+ 
+
+  @media (max-width: 1920px) {
+        h1{
+            font-size: 16rem;
+        }
+        main{
+            height: 170vh;
+        }
+   
+  }
+  @media (min-width: 768px) {
+    main{
+        background-image: url(./imgs/backgroundpc.jpg);
+        background-size: cover; /* Esto ajustará la imagen al tamaño de la pantalla sin distorsionarla */
+        background-repeat: no-repeat;
+        height: 110vh;
+    }
+    .textos-inicio{
+        margin-top: 7rem;
+    }
+    .presupuesto-boton{
+        font-size: 1rem;
+    }
+    
+    
+    
+   
+    
+  }
+
+  @media (min-width: 768px) {
+    main{
+        background-image: url(./imgs/backgroundpc.jpg);
+        background-size: cover; /* Esto ajustará la imagen al tamaño de la pantalla sin distorsionarla */
+        background-repeat: no-repeat;
+        height: 110vh;
+    }
+    .textos-inicio{
+        margin-top: 7rem;
+    }
+    .presupuesto-boton{
+        font-size: 1rem;
+    }
+    
+    
+    
+   
+    
+  }
